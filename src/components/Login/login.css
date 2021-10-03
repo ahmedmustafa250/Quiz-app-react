@@ -1,0 +1,85 @@
+.Login-form{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 60px;
+    background-color: whitesmoke;
+    padding: 50px 25px ;
+    border-radius: 20px;
+  }
+  .login-head{
+    text-align: center;
+    font-size: 42px;
+
+  }
+  .login-btn{
+    text-align: center;
+    margin-top:40px;
+  }
+  .btn{
+    width: 30%;
+  }
+  .btn:hover{
+   background-color: rgb(17, 107, 180);
+  }
+  .text-muted{
+    font-size: bold !important;
+  }
+  @media screen and (max-width: 486px) {
+    .email{
+      margin-top: 30px !important;
+    }
+    .password{
+      margin-top: 10px !important;
+    }
+    .text-muted{
+      margin-top: 10px !important;
+    }
+    .btn{
+      width: 70%;
+    }
+  }
+  @media screen and (min-width: 487px) and (max-width:730px) {
+    .Login-form{
+      width: 60%;
+      
+    }
+    .email{
+      margin-top: 30px !important;
+    }
+    .password{
+      margin-top: 10px !important;
+    }
+    .text-muted{
+      margin-top: 10px !important;
+    }
+    .btn{
+      width: 70%;
+    }
+  }
+  @media screen and (min-width: 731px)  {
+    .Login-form{
+      margin-top: 100px;
+      width: 40%;
+      height: 500px;
+      
+    }
+    .login-head{
+      text-align: center;
+      font-size: 52px;
+      font-weight: bolder;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  
+    }
+    .email{
+      margin-top: 30px !important;
+    }
+    .password{
+      margin-top: 10px !important;
+    }
+    .text-muted{
+      margin-top: 10px !important;
+    }
+    .btn{
+      width: 30%;
+    }
+  }

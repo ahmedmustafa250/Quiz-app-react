@@ -1,0 +1,23 @@
+.text {
+    margin-top: 20px;
+    margin-right: 25px;
+  }
+  .gap {
+    margin-top: 20px;
+    margin: 0px 10px;
+  }
+  .date {
+    margin-top: 10px;
+    margin-left: 70px;
+  }
+  
+  @media screen and (max-width: 486px) {
+    .text {
+      display: block;
+      margin-bottom: 10px;
+    }
+    .date {
+        margin-left: 20px;
+        margin-bottom: 15px;
+    }
+  }

@@ -1,0 +1,71 @@
+.Form {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 40px;
+    background-color: whitesmoke;
+    padding: 40px 30px ;
+    height: 580px;
+  }
+  .signup-heading {
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: bolder;
+  }
+  .create-account-btn {
+      text-align: center;
+  }
+  .signup{
+    width: 100% !important;
+  }
+  .goback{
+    display: block;
+    width: 50%;
+    margin:  0 auto;
+    margin-top: 5px;
+  }
+    
+  @media screen and (max-width: 486px) {
+    .Form {
+      width: 90%;
+      margin: 0 auto;
+      margin-top: 20px;
+      background-color: whitesmoke;
+      padding: 40px 30px ;
+      height: 600px;
+      border-radius: 15px;
+    }
+  }
+  @media screen and (min-width: 487px) and (max-width:730px) {
+    .Form {
+      width: 90%;
+      margin: 0 auto;
+      margin-top: 20px;
+      background-color: whitesmoke;
+      padding: 40px 30px ;
+      height: 540px;
+      border-radius: 15px;
+    }
+    .signup{
+      margin-top: 20px;
+      width: 50% !important;
+      
+    }
+      
+  }
+  @media screen and (min-width: 731px) {
+    .Form {
+      width: 50%;
+      margin: 0 auto;
+      margin-top: 120px;
+      background-color: whitesmoke;
+      padding: 40px 30px ;
+      height: 570px;
+      border-radius: 15px;
+    }
+    .signup{
+      margin-top: 20px;
+      width: 55% !important;
+      
+    }
+      
+  }
